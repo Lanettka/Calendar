@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>Calendar</title>
+<meta http-equiv="Content-Type"content="text/html; charset=windows-1251">
+</head>
+<body>
+<centr>
+<form action="addevent.php" method="post">
+			<table border="0" width="60%">
+			<tr>
+				<td width="15%">*Number</td>
+				<td width="75%"></td><input type="text" name="day" size="2" maxlength="2" >
+				</td>
+			</tr>
+			<tr>
+				<td>*Mounth</td>
+				<td>
+					<select name="month">
+						<option value="01">January</option>
+						<option value="02">February</option>
+						<option value="03">March</option>
+						<option value="04">April</option>
+						<option value="05">May</option>
+						<option value="06">June</option>
+						<option value="07">Jule</option>
+						<option value="08">August</option>
+						<option value="09">September</option>
+						<option value="10">October</option>
+						<option value="11">November</option>
+						<option value="12">December</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>*Year</td>
+				<td><input type="text" name="year" size="3" maxlength="4" ></td>
+			</tr>
+			<tr>
+				<td>*Discribe</td>
+				<td><input type="text" name="fulltext" maxlength="255" size="100">
+				<div align="right">*must input</div>
+				</td>
+			</tr>
+		</table>
+		<br><input type="submit" value="Submit">
+	</form>
+	</centr>
+</body>
+<html>
